@@ -3,5 +3,6 @@ langchain
 langgraph
 tavily-python
 polygon
+ipykernel
 
 -e.

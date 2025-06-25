@@ -14,3 +14,9 @@ class TradingBotException(Exception):
         return "Error occured in python script named [{0}] at line number [{1}] error message: [{2}]".format(
             self.filename, self.lineno, self.error_message
         )
+
+if __name__ == "__main__":
+    try:
+        10/0
+    except Exception as e:
+        raise TradingBotException(e, sys)
