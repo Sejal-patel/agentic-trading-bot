@@ -5,4 +5,4 @@ setup(name="agentic-trading-system",
       author="sejal",
       author_email="sejal9992@gmail.com",
       packages=find_packages(),
-      install_requires={"langchain-astradb","langchain"})
+      install_requires={"lancedb","langchain","langgraph","tavily-python","polygon"})
