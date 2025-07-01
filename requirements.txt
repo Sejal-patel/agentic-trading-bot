@@ -1,8 +1,8 @@
 lancedb
 langchain
+langchain-community
 langgraph
 tavily-python
 polygon
 ipykernel
 
--e.
